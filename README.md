@@ -1,20 +1,69 @@
-# Phishing para captura de senhas do Facebook
+# Phishing para Captura de Senhas do Facebook
 
-### Ferramentas
+## Ferramentas Necessárias
+- **Kali Linux**: Sistema operacional projetado para testes de penetração.
+- **setoolkit**: Ferramenta integrada ao Kali Linux para simulação de ataques sociais.
 
-- Kali Linux
-- setoolkit
+---
 
-### Configurando o Phishing no Kali Linux
+## Configurando o Phishing no Kali Linux
 
-- Acesso root: ``` sudo su ```
-- Iniciando o setoolkit: ``` setoolkit ```
-- Tipo de ataque: ``` Social-Engineering Attacks ```
-- Vetor de ataque: ``` Web Site Attack Vectors ```
-- Método de ataque: ```Credential Harvester Attack Method ```
-- Método de ataque: ``` Site Cloner ```
-- Obtendo o endereço da máquina: ``` ifconfig ```
-- URL para clone: http://www.facebook.com
+1. **Acessar como root**:
+   Execute o comando abaixo para obter permissão de superusuário:
+   ```bash
+   sudo su
+   ```
+
+2. **Iniciar o setoolkit**:
+   Inicie a ferramenta digitando o seguinte comando no terminal:
+   ```bash
+   setoolkit
+   ```
+
+3. **Selecionar o tipo de ataque**:
+   Escolha a opção:
+   ```
+   Social-Engineering Attacks
+   ```
+
+4. **Definir o vetor de ataque**:
+   Escolha a opção:
+   ```
+   Web Site Attack Vectors
+   ```
+
+5. **Selecionar o método de ataque**:
+   Escolha a opção:
+   ```
+   Credential Harvester Attack Method
+   ```
+
+6. **Escolher o método do site clonado**:
+   Escolha a opção:
+   ```
+   Site Cloner
+   ```
+
+7. **Obter o endereço IP da máquina**:
+   Utilize o comando abaixo para identificar o IP local que será usado no ataque:
+   ```bash
+   ifconfig
+   ```
+   Copie o endereço IPv4 exibido na interface de rede em uso.
+
+8. **Inserir a URL a ser clonada**:
+   No prompt, insira o link do site alvo:
+   ```
+   http://www.facebook.com
+   ```
+
+---
+
+## Resultados
+- Todas as credenciais inseridas no site clonado serão capturadas e exibidas no terminal ou armazenadas em um arquivo de log no sistema.
+
+> **Nota Importante:** Este procedimento é apresentado exclusivamente para fins educacionais e de conscientização sobre segurança. O uso de phishing para qualquer propósito mal-intencionado é ilegal e pode levar a graves conseqüências legais.
+
 
 ### Resutados
 
