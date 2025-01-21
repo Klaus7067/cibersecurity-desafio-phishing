@@ -59,13 +59,11 @@
 
 ---
 
-## Resultados
+### Resultados
 ![image](https://github.com/user-attachments/assets/929586e6-b4af-4ca7-8cd5-d34f38fe4dd0)
 
 
 > **Nota Importante:** Este procedimento é apresentado exclusivamente para fins educacionais e de conscientização sobre segurança. O uso de phishing para qualquer propósito mal-intencionado é ilegal e pode levar a graves conseqüências legais.
 
 
-### Resutados
 
-![Alt text](./passwd.png "Optional title")
